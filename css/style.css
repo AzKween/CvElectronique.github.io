@@ -115,6 +115,9 @@ html{
     #div_competence{
         margin-top: 23em;
     }
+    .carousel-control-prev, .carousel-control-next {
+        width: 2em;
+    }
 }
 @media all and (max-width:376px){
     #debut{
