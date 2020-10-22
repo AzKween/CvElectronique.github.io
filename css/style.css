@@ -104,6 +104,11 @@ html{
     }
 }
 @media all and (max-width:570px){
+    #header
+    {
+        padding-top: 3vw;
+        display: none;
+    }
     #debut{
         height: 17em;
     }
