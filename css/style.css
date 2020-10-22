@@ -1,0 +1,114 @@
+#debut{
+    height: 40vw;
+    background-image: url(../img/fond_cv.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+#btn_tel_cv{
+    font-size : 1.2em;
+}
+
+#acceuil{
+    font-size: 1.2em;
+}
+
+#header
+{
+    padding-top: 3vw;
+}
+
+#identiter{
+
+    padding-top: 20vw;
+}
+#nom_pre
+{
+    color: white;
+}
+
+#photo-de-moi{
+    height: 20vw;
+    background-image: url(../img/photo_cv.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: center;
+}
+
+#carouselExampleFade
+{
+    margin-top: 10em;
+    height: 19em;
+}
+
+.titre_carouss{
+    padding-top: 1em;
+}
+
+#text{
+    margin-top : 2em;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5em;
+}
+.carousel-control-prev{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.carousel-control-next {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#div_competence{
+    background-image: url(../img/img_competence.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 50vw;
+    margin-top: 10em;
+}
+
+#comp{
+    height: 60%;
+}
+
+.bar{
+    margin-top: 5vw;
+}
+#div_con_inf{
+    height: 20em;
+}
+#inf_con{
+    height: 100%; 
+}
+#txt_info{
+    height: 80%;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@media all and (max-width:1024px){
+    #div_competence{
+        margin-top: 13em;
+    }
+}
+@media all and (max-width:541px){
+    #debut{
+        height: 17em;
+    }
+    #div_competence{
+        margin-top: 23em;
+    }
+}
+@media all and (max-width:321px){
+    #debut{
+        height: 22em;
+    }
+    #div_competence{
+        margin-top: 32em;
+    }
+}
+
