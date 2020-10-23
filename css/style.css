@@ -114,6 +114,7 @@ html{
     }
     #div_competence{
         margin-top: 23em;
+        height: 18em;
     }
     .carousel-control-prev, .carousel-control-next {
         width: 2em;
